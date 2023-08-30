@@ -1,7 +1,7 @@
 library(httr)
 library(jsonlite)
 library(shiny)
-base_url <- "https://ctr26perf1.ct-renaissance.com/cdr/outbound/target/project/data/select/table"
+base_url <- "https://denalisb.ct-renaissance.com//cdr/outbound/target/project/data/select/table"
 response <- GET(base_url,
                 add_headers('Authorization' = 'XpmogFxpEErj88ohFJQ3ewU6xGLAS4',
                             'study' = 'Maxis-08',
