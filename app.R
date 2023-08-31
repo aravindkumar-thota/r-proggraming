@@ -1,4 +1,4 @@
-library(rjson)
+#library(rjson)
 library(httr)
 
 url <- "https://www.zipcodeapi.com/rest/DemoOnly00CS83jqI3dmpepOGDABqGZ5H8B9GNC1WhXOHM5WKuUwgmwu22P4QaaZ/state-zips.json/NJ"
